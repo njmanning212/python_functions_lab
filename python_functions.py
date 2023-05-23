@@ -5,10 +5,10 @@
 #Solution:
 
 def sum_to(n):
-    sum = 0
-    for i in range(0, n+1):
-        sum = sum+i
-    return sum
+  sum = 0
+  for i in range(0, n+1):
+    sum = sum+i
+  return sum
 
 # print(sum_to(6))
 # print(sum_to(10))
@@ -22,8 +22,8 @@ def sum_to(n):
 #Solution:
 
 def largest(list):
-    list.sort()
-    return list[-1]
+  list.sort()
+  return list[-1]
     
 
 # print (largest([1, 2, 3, 4, 0]))
@@ -39,8 +39,8 @@ def largest(list):
 #Solution:
 
 def occurrences(first_string, second_string):
-    count = first_string.count(second_string)
-    return count
+  count = first_string.count(second_string)
+  return count
 
 # print (occurrences('fleep floop', 'e'))
 # print (occurrences('fleep floop', 'p'))
