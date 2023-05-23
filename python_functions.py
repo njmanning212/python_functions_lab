@@ -26,8 +26,8 @@ def largest(list):
     return list[-1]
     
 
-print (largest([1, 2, 3, 4, 0]))
-print (largest([10, 4, 2, 231, 91, 54]))
+# print (largest([1, 2, 3, 4, 0]))
+# print (largest([10, 4, 2, 231, 91, 54]))
 
 # ----------------------------------------------------------------
 
@@ -46,3 +46,20 @@ def occurrences(first_string, second_string):
 # print (occurrences('fleep floop', 'p'))
 # print (occurrences('fleep floop', 'ee'))
 # print (occurrences('fleep floop', 'fe'))
+
+# ----------------------------------------------------------------
+
+#Challenge 4:
+# Write a function named product that takes an arbitrary number of numbers, multiplies them all together, and returns the product. HINT: Review your notes on args.
+
+#Solution:
+
+def product(*args):
+  product = 1
+  for num in args:
+    product *= num
+  return product
+
+print (product(-1, 4))
+print (product(2, 5, 5))
+print (product(4, 0.5, 5))
