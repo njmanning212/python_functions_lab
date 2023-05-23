@@ -22,12 +22,12 @@ def sum_to(n):
 #Solution:
 
 def largest(list):
-  list.sort()
-  return list[-1]
+  largest_num = max(list)
+  return largest_num
     
 
-# print (largest([1, 2, 3, 4, 0]))
-# print (largest([10, 4, 2, 231, 91, 54]))
+print (largest([1, 2, 3, 4, 0]))
+print (largest([10, 4, 2, 231, 91, 54]))
 
 # ----------------------------------------------------------------
 
@@ -60,6 +60,6 @@ def product(*args):
     product *= num
   return product
 
-print (product(-1, 4))
-print (product(2, 5, 5))
-print (product(4, 0.5, 5))
+# print (product(-1, 4))
+# print (product(2, 5, 5))
+# print (product(4, 0.5, 5))
