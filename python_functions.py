@@ -28,5 +28,23 @@ def largest(list):
             largets_num = i
     return largets_num
 
-print (largest([1, 2, 3, 4, 0]))
-print (largest([10, 4, 2, 231, 91, 54]))
+# print (largest([1, 2, 3, 4, 0]))
+# print (largest([10, 4, 2, 231, 91, 54]))
+
+# ----------------------------------------------------------------
+
+#Challenge 3:
+
+# Write a function named occurrences that takes two string arguments as input and counts the number of occurrences of the second string inside the first string.
+
+
+#Solution:
+
+def occurrences(first_string, second_string):
+    count = first_string.count(second_string)
+    return count
+
+print (occurrences('fleep floop', 'e'))
+print (occurrences('fleep floop', 'p'))
+print (occurrences('fleep floop', 'ee'))
+print (occurrences('fleep floop', 'fe'))
