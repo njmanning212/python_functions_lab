@@ -22,11 +22,11 @@ def sum_to(n):
 #Solution:
 
 def largest(list):
-    largest = list[0]
+    largets_num = list[0]
     for i in list:
-        if i > largest:
-            largest = i
-    return largest
+        if i > largets_num:
+            largets_num = i
+    return largets_num
 
 print (largest([1, 2, 3, 4, 0]))
 print (largest([10, 4, 2, 231, 91, 54]))
